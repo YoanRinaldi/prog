@@ -7,6 +7,7 @@ namespace yoyoyo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            //le peti pot
         }
     }
 }
