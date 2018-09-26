@@ -55,8 +55,14 @@ namespace BlackJack
                 {
                     scoreJ = Carte(scoreJ);
                     Console.WriteLine("tu as un score de " + scoreJ + " et la bank a " + scoreI);
-
-
+                    
+                    Console.WriteLine("Tu t arretes (1) ou tu relance (2)");
+                    choix = Convert.ToInt32(Console.ReadLine());
+                    if(choix==2)
+                    {
+                        scoreJ = Carte(scoreJ);
+                        Console.WriteLine("tu as un score de " + scoreJ + " et la bank a " + scoreI);
+                    }
                 }
 
                 //Tour IA lol mdr xd
